@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jian Liu"
-  avatar           : "images/jian.jpg"
+  avatar           : "images/favicon-32x32.png"
   bio              : "National Engineering Research Center of Robot Visual Perception & Control Technology, Hunan University"
   location         : "Changsha, China"
   employer         :

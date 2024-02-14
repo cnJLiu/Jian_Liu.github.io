@@ -1,4 +1,4 @@
-<!-- ---
+---
 permalink: /
 title: ""
 excerpt: ""
@@ -6,46 +6,50 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
---- -->
-
-<!-- {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
+---
 
 <span class='anchor' id='about-me'></span>
-I am a 2st year Ph.D. student at Hunan University, supervised by [Prof. Wei Sun](http://eeit.hnu.edu.cn/info/1281/4511.htm).
+{% include_relative includes/intro.md %} -->
 
-My research focuses on 3D computer vision, deep learning, and 6D object pose estimation and tracking. Specifically, I have worked on category-level 6D object pose estimation, and instance-level 6D object pose tracking. Subsequent research focuses include: self-supervised learning and point cloud-based category-level 6D object pose tracking. I was motivated to conduct this doctoral research due to my passion for 3D computer vision, deep learning, and their application for robotic manipulation.
+<span class='anchor' id='about-me'></span>
+I am a 2nd year Ph.D. student at the [National Engineering Research Center of Robot Visual Perception and Control Technology](http://robot.hnu.edu.cn/) of [Hunan University](https://www.hnu.edu.cn/), supervised by [Prof. Wei Sun](https://www.hnu.edu.cn/info/1038/7317.htm). I am currently a Visiting Ph.D. Student at the Machine Intelligence Group of the [University of Western Australia](https://www.uwa.edu.au/), supervised by [Prof. Ajmal Mian](https://ajmalsaeed.net/).
+
+My research focuses on 3D computer vision, deep learning, and their applications for robotic manipulation. Specifically, I have worked on category-level 6D object pose estimation and instance-level 6D object pose tracking. Subsequent research focuses include: label-efficient learning for generalized 6D object pose estimation and tracking. I was motivated to conduct this doctoral research due to my passion for realizing intelligent perception and autonomous manipulation of robots in 3D space.
 
 # 🔥 News
-- *2023.02*: &nbsp;🎉🎉 One paper is accepted by IEEE T-II!
-- *2022.06*: &nbsp;🎉🎉 One paper is accepted by IEEE T-CSVT! 
-
+- *2024.02*: &nbsp;🎉🎉 One paper is accepted by IEEE TII!
+- *2024.01*: &nbsp;🎉🎉 One paper is accepted by IEEE TNNLS!
+- *2023.02*: &nbsp;🎉🎉 One paper is accepted by IEEE TII!
+- *2022.06*: &nbsp;🎉🎉 One paper is accepted by IEEE TCSVT!
+  
 # 📝 Publications 
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
-
-[HFF6D: Hierarchical Feature Fusion Network for Robust 6D Object Pose Tracking](https://ieeexplore.ieee.org/abstract/document/9792223)
-
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TII 2023</div><img src='https://github.com/cnJLiu/cnJLiu.github.io/edit/main/images/paper2_512x512.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Robotic Continuous Grasping System by Shape Transformer-Guided Multi-Object Category-Level 6D Pose Estimation](https://ieeexplore.ieee.org/abstract/document/10043016) \\
+**Jian Liu**, Wei Sun, Chongpei Liu, Xing Zhang, Qiang Fu
+- The GSENet is proposed to identify the global shape of an object category. It can effectively use the global and local features of the intra-class known object’s 3D model by residual connection and max-pooling. The global shape can be used as the prior information of intra-class known object.
+- We propose a transformer-guided shape reconstruction network to reconstruct the NOCS shape of intra-class known object, which can fully use the prior feature, current observation feature, and their feature difference by internal self-attention, as well as strengthen their correlation by mutual cross-attention. By doing so, the shape variation can be explicitly highlighted.
+</div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2022</div><img src='https://github.com/cnJLiu/cnJLiu.github.io/edit/main/images/paper1_512x512.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[HFF6D: Hierarchical Feature Fusion Network for Robust 6D Object Pose Tracking](https://ieeexplore.ieee.org/abstract/document/9792223) \\
 **Jian Liu**, Wei Sun, Chongpei Liu, Xing Zhang, Shimeng Fan, Wei Wu
+- We propose a light-weight and robust hierarchical feature fusion network for 6D object pose tracking. It can establish sufficient spatial-temporal information interaction between adjacent frames, thereby improving the accuracy of relative pose estimation.
+- We propose a novel subtraction feature fusion module with attention mechanism to leverage feature subtraction during feature fusion. It explicitly highlights the feature differences between adjacent frames, thus improving the robustness of relative pose estimation in challenging scenes.
+</div></div>
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+ 
+# 💻 Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://github.com/cnJLiu/cnJLiu.github.io/edit/main/images/project1_512x512.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[**Robotic Continuous Grasping System**](https://github.com/CNJianLiu/6D-CLGrasp) (Demo can be seen through [link1](https://www.bilibili.com/video/BV16M4y1Q7CD) or [link2](https://youtu.be/ZeGN6_DChuA))
+- We build an end-to-end robotic continuous grasping system, which achieves high-accuracy 6D pose estimation for multiple intra-class unknown objects and high-efficiency robotic grasping in 3D space. For continuous grasping, we propose a low-computation and effective grasping strategy based on the pre-defined vector orientation, and develop a GUI for monitoring and control.
+</div></div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+- *2018.11* The National First Prize in "Higher Education Society Cup" National Undergraduate Mathematical Contest in Modeling (Top 1.5 %).
+- *2019.08* The National Second Prize in "RoboMaster2019" National Undergraduate Robotics Competition (Hosted by DJI-Innovations).
+- *2018.06* Hong Kong "Zhong Huiming" Social Scholarship.
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

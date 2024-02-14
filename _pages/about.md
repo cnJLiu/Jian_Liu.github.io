@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
 <span class='anchor' id='about-me'></span>
-I am a 1st year Ph.D. student at Hunan University, supervised by [Prof. Wei Sun](http://eeit.hnu.edu.cn/info/1281/4511.htm).
+I am a 2st year Ph.D. student at Hunan University, supervised by [Prof. Wei Sun](http://eeit.hnu.edu.cn/info/1281/4511.htm).
 
 My research focuses on 3D computer vision, deep learning, and 6D object pose estimation and tracking. Specifically, I have worked on category-level 6D object pose estimation, and instance-level 6D object pose tracking. Subsequent research focuses include: self-supervised learning and point cloud-based category-level 6D object pose tracking. I was motivated to conduct this doctoral research due to my passion for 3D computer vision, deep learning, and their application for robotic manipulation.
 
